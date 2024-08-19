@@ -6,7 +6,7 @@ import { OrbitControls } from "@react-three/drei";
 import "./index.css";
 
 export default function App() {
-  const [show, setShow] = React.useState(true);
+  // const [show, setShow] = React.useState(true);
   return (
     <Canvas>
       <OrbitControls />
