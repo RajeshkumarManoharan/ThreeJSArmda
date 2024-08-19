@@ -7,6 +7,7 @@ import "./index.css";
 
 export default function App() {
   // const [show, setShow] = React.useState(true);
+  const [name,setUserName] = React.useState("John Doe");
   return (
     <Canvas>
       <OrbitControls />
